@@ -1,6 +1,6 @@
 node{
     stage('project4')
     {
-    git clone 'https://github.com/RamyaShivanna/new/edit/master'
+    git clone 'https://github.com/RamyaShivanna/new'
     }
     }
