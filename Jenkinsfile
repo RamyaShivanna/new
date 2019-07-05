@@ -1,6 +1,13 @@
 node{
     stage('project4')
     {
-    git 'https://github.com/RamyaShivanna/new'   
+        parallel(
+            "job1":{
+              git 'https://github.com/RamyaShivanna/new'   
+             },
+            "job2":{
+                sh 'deply.sh'
     }
+            )
     }
+}
