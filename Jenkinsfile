@@ -6,7 +6,7 @@ node{
               git 'https://github.com/RamyaShivanna/new'   
              },
             "job2":{
-                sh deply.sh
+                build job: 'pro1'
     }
             )
     }
