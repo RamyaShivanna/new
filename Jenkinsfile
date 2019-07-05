@@ -1,10 +1,6 @@
 node{
-    stage('project1')
+    stage('project4')
     {
-    build job:'pro1'
+    git clone 'https://github.com/RamyaShivanna/new/edit/master'
     }
-    stage('project2')
-    {
-    build job:'pro2'
     }
-}
